@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Game of Thrones, House of Dragons Get to Know Me Interview</title>
+    </head>
+
+    <header>
+        <p>In an interview with Olivia Cooke, Emma D'Arcy explains her drink of choice.</p>
+        <h1>What's your drink of choice?</h1>
+        <h2>Emma D'Arcy's Drink of Choice is...</h2>
+        <img src="negroni.jpg" alt="Drink of Choice - Negroni" height="80">
+        <p>Olivia Cooke thought it was stunning!</p>
+        <ul>
+            <li>A Negroni</li>
+            <li>With Prosecco in it</li>
+        </ul>
+    </header>
+
+    <body {
+            background-image: linear-gradient(
+            to right, white 0%, #FFC5B5 100%);
+            padding: 5px;
+            margin: 20px;
+            border-style: solid;
+            border-color: #FFC5B5;
+            border-width: 10px;
+        }
+    ><!-- Code injected by live-server -->
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+</body>
+    <footer>
+        <p>&copy; 2022, Game of Thrones, House of Dragons Get to Know Me Interview</p>	
+    </footer>
+</html>
