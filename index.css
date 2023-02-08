@@ -11,3 +11,8 @@
     border-color: #FFC5B5;
     border-width: 2px;
 }           
+
+body {
+    width: 75%;
+    margin: auto;
+}
